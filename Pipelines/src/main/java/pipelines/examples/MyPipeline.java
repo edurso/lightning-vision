@@ -16,7 +16,6 @@ import util.annotation.Pipeline;
  * Sends relevant data from generated GRIP pipeline to Network Table.
  */
 @Pipeline(camera=0)
-@Disabled
 public class MyPipeline implements LightningVisionPipeline {
 
     public int val = 0;
